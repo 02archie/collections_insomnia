@@ -1,0 +1,30 @@
+_id: req_522628b6bd1748e0bf4d5e377109ee6d
+type: Request
+parentId: fld_e3a1ed6e327d45149d1f1d1c36292ba3
+modified: 1652738149365
+created: 1652720462503
+url: "{{api_url}}auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "spadmin@notariales.com",
+    	"password": "123456a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_306a6a90716942edbb267f5a7ff83fbd
+authentication: {}
+metaSortKey: -1652720462503
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

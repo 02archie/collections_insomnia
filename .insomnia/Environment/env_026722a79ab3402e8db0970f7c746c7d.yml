@@ -1,0 +1,16 @@
+_id: env_026722a79ab3402e8db0970f7c746c7d
+type: Environment
+parentId: env_0d1dd235dbafc7c14651a963997e4bd30b864bea
+modified: 1652738148911
+created: 1652721163775
+name: Avisos notariales
+data:
+  api_url: http://localhost:3004/api/
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2wiOiJzcGFkbWluIiwiaWQiOiI2MjgyOWE0MjYzNzk1MDAyN2RhN2Y1OTgiLCJub21icmUiOiJTdXBlciBBZG1pbmlzdHJhZG9yIiwiaWF0IjoxNjUyNzI5OTMwLCJleHAiOjE2NTI3NTg3MzB9.YUD0g3UcNCETnecRFr6zt3_G0kkBpUcwkjsEdeBCSJw
+dataPropertyOrder:
+  "&":
+    - api_url
+    - token
+color: "#760495"
+isPrivate: false
+metaSortKey: 1652721163775

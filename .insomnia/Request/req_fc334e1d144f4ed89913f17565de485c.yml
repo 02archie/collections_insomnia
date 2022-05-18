@@ -1,0 +1,52 @@
+_id: req_fc334e1d144f4ed89913f17565de485c
+type: Request
+parentId: fld_119e15de676d47c7869902405ff02934
+modified: 1652729971597
+created: 1652723175710
+url: "{{api_url}}avisos"
+name: POST crear aviso
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    	{
+       "apiKey":"APIA9F1253A-6259-4E37-BB8E-C3F9ADEE9E00",
+       "Metodo":"envioEscritura",
+       "IdNotario":0,
+       "IdMunicipio":"039",
+       "Municipio":"Guadalajara",
+       "RFCNotario":"XAXX010101002",
+       "NombreNotario":"Notario ",
+       "ApellidoPaternoNotario":"Demo",
+       "ApellidoMaternoNotario":"AVISOS",
+       "Adscripcion":"TITULAR",
+       "Convenio":"",
+       "IdTipoPagoAviso":null,
+       "ReferenciaPagoAviso":"",
+       "FechaPagoAviso":null,		"JSONMensaje":"eyJJZEVzY3JpdHVyYSI6MywiSWRUaXBvUHJvdG9jb2xvIjoyLCJUaXBvUHJvdG9jb2xvIjoiUHJvdG9jb2xvIENlcnJhZG8iLCJJZFRpcG9JbnN0cnVtZW50byI6MiwiVGlwb0luc3RydW1lbnRvIjoiQ0VSVElGSUNBQ0lPTkVTIiwiTm9QYXNvIjpmYWxzZSwiVG9tbyI6MSwiTGlicm8iOjIsIkZlY2hhUHJvdG9jb2xvIjoiMjAyMi0wNS0wNFQwMDowMDowMCIsIkZlY2hhRmlybWEiOiIxOTAwLTAxLTAxVDAwOjAwOjAwIiwiRm9saW9zVXRpbGl6YWRvcyI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyXSwiRm9saW9zSW51dGlsaXphZG9zIjpudWxsLCJQZXJzb25hc0Zpc2ljYXMiOlt7IklkQ29udGFjdG8iOiIxIiwiTm9tYnJlIjoiQ09NUFJBRE9SIiwiQXBlbGxpZG9QYXRlcm5vIjoiREVMIElOTVVFQkxFIiwiQXBlbGxpZG9NYXRlcm5vIjpudWxsLCJSRkMiOiJORCIsIkNVUlAiOiJORCIsIklkZW50aWZpY2FjaW9uZXMiOlt7IklkVGlwb0lkZW50aWZpY2FjaW9uIjowLCJUaXBvSWRlbnRpZmljYWNpb24iOm51bGwsIkZvbGlvIjpudWxsLCJGZWNoYUV4cGVkaWNpb24iOiIwMDAxLTAxLTAxVDAwOjAwOjAwIiwiVmlnZW5jaWEiOm51bGwsIkV4cGVkaWRhUG9yIjpudWxsfV0sIk9ic2VydmFjaW9uZXMiOiIifV0sIlBlcnNvbmFzTW9yYWxlcyI6bnVsbCwiSW5tdWVibGVzIjpudWxsLCJPcGVyYWNpb25lcyI6W3siT3JkZW4iOjAsIklkVGlwb09wZXJhY2lvbiI6OSwiVGlwb09wZXJhY2lvbiI6IkFDVEEgREUgRU1JU0nTTiBERSBDRVJUSUZJQ0FET1MgREUgUEFSVElDSVBBQ0lPTiBPUkRJTkFSSUEiLCJJZEdydXBvT3BlcmFjaW9uIjoxLCJHcnVwb09wZXJhY2lvbiI6IkFDVEEiLCJDb21wYXJlY2llbnRlcyI6W3siT3JkZW4iOjAsIklkQ29udGFjdG8iOjEsIklkVGlwb0NvbXBhcmVjZW5jaWEiOjEsIlRpcG9Db21wYXJlY2VuY2lhIjoiQUNDSU9OSVNUQSIsIkZpcm1hbnRlIjp0cnVlLCJSZXByZXNlbnRhbnRlcyI6bnVsbCwiQ29ueXVnZSI6bnVsbH1dLCJQcm9ncmFtYXMiOltdLCJJbm11ZWJsZXMiOm51bGwsIk9ic2VydmFjaW9uZXMiOm51bGx9XSwiQXJjaGl2b3MiOnsiU2l6ZSI6MjQ1Nzc0LCJUaXBvQ29tcHJlc2lvbiI6IlpJUCIsIlVSTCI6Imh0dHBzOi8vbm90YXJpb3NqYWxpc2NvLmRiYXN5c3RlbS5vcmcvL2NvbGVnaW9Ob3Rhcmlvc0pBTC9tYWluL2ZpbGluZ1YyL2Rlc2NhcmdhQXJjaGl2by5hc3B4P2ZsdXNoPTEmdG9rZW5BcmNoaXZvPUE5RjEyNTNBLTYyNTktNEUzNy1CQjhFLUMzRjlBREVFOUUwMCIsIkRldGFsbGVBcmNoaXZvcyI6W3siSWRBcmNoaXZvIjoiRXNjcml0dXJhRmlybWFkYS5wZGYiLCJOb21icmUiOiJFc2NyaXR1cmFGaXJtYWRhLnBkZiIsIklkVGlwb0FyY2hpdm8iOjIsIlRpcG9BcmNoaXZvIjoiRVNDUklUVVJBIERJR0lUQUxJWkFEQSIsIlNpemUiOjI4MDQyNCwiT2JzZXJ2YWNpb25lcyI6IkVzY3JpdHVyYSBmaXJtYWRhIn1dfSwiTm90YXNDb21wbGVtZW50YXJpYXMiOltdLCJPYnNlcnZhY2lvbmVzIjoiIn0=",
+       "Observaciones":null,
+       "TOKEN":"A9F1253A-6259-4E37-BB8E-C3F9ADEE9E00",
+       "LugarOtorgamiento":{
+          "idEstado":"14",
+          "Estado":"Jalisco",
+          "idMunicipio":"039",
+          "Municipio":"Guadalajara"
+       }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bbd702aa67c14b8db68567a4275834c6
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1652723175710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
